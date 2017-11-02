@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica DOM -Instagram-</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <!-- CONTIENE LA FOTO MAS EL LOGO DE INSTAGRAM -->
+      <div class="container_logo_text">
+        <img src="images/new-instagram-text-logo.png" class="insta_logo">
+      </div>
+      <!-- SECCION FOTO CENTRAL -->
+      <section class="foto_central">
+        <img src="images/cucho_kill.jpg" class="cuchito">
+      </section>
+      <!-- SECCION TEXT AREA, BOTON Y CONTENEDOR MENSAJES -->
+      <section class="center">
+        <div class="container_text">
+          <textarea class="txt" id="comment" placeholder="Ingresa tu comentario"></textarea>
+          <button type="button" name="button" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i> Comenta Aquí!</button>
+        </div>
+      </section>
+      <!-- CONTENEDOR COMENTARIOS -->
+      <section>
+        <div id="cont"></div>
+      </section>
+    </header>
+    <script type="text/javascript" src="https://use.fontawesome.com/7873633050.js"></script>
+    <script type="text/javascript" src="javascript/app.js" charset="utf-8"></script>
+  </body>
+</html>
